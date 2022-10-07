@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Swapnil Walhekar",
+      "username": "sss",
+      "email": "sw@12.com",
+      "phone": "833829ksdcnj",
+      "website": "swakskmcoacjk",
+      "id": 5
+    },
+    {
+      "name": "Swapnil Balasaheb Walhekar",
+      "username": "swapnil",
+      "email": "sw@12",
+      "phone": "1234568979",
+      "website": "www.sw.com",
+      "id": 6
+    },
+    {
+      "name": "swapnil",
+      "username": "Swapnil@12",
+      "email": "qs@g.com",
+      "phone": "1234",
+      "website": "jjkjj.com",
+      "id": 7
+    }
+  ]
+}
