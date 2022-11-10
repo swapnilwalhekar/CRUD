@@ -25,12 +25,12 @@ const ViewUser = () => {
     <div className="container py-4">
       <Link className="btn btn-primary" to="/">
         Back to Home
-      </Link>
-      <h2>User id: {id}</h2>
+      </Link><br/><br/>
+      <h2>User id: {id}</h2><br/>
       <ul className="list-group w-50">
-        <li className="list-group-item">User Name: {user.name}</li>
-        <li className="list-group-item">User Email: {user.email}</li>
-        <li className="list-group-item">User Phone: {user.phone}</li>
+        <li className="list-group-item">User Name: {user.name}</li><br/>
+        <li className="list-group-item">User Email: {user.email}</li><br/>
+        <li className="list-group-item">User Phone: {user.phone}</li><br/>
         <li className="list-group-item">User Website: {user.website}</li>
       </ul>
     </div>

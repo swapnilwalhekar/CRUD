@@ -18,46 +18,46 @@ const Home = () => {
   const deleteUser = async (id) => {
     await axios.delete(`http://localhost:3003/users/${id}`);
     loadUsers();
-    // After deletion of data page/data is automaically reloaded
+    // After deletion of data page is automaically reloaded
     // If loadUsers function is not called then page is not reloaded
   };
 
   return (
     <div className="container">
-      <div className="py-4">
+      <div className="py-4 m-2">
         <h1>Home Page</h1>
         <table className="table border shadow">
-          <thead className="thead-dark">
+          <thead>
             <tr>
-              <th scope="col">#</th>
-              <th scope="col">Name</th>
-              <th scope="col">User Name</th>
-              <th scope="col">Email</th>
+              <th>#</th>
+              <th>Name</th>
+              <th>User Name</th>
+              <th>Email</th>
               <th>Action</th>
             </tr>
           </thead>
           <tbody>
             {users.map((user, index) => (
               <tr key={user.id}>
-                <th scope="row">{index + 1}</th>
+                <th>{index + 1}</th>
                 <td>{user.name}</td>
                 <td>{user.username}</td>
                 <td>{user.email}</td>
-                <td>
+                <td style={{ margin: "center" }}>
                   <Link
-                    className="btn btn-primary"
+                    className="btn btn-primary m-1"
                     to={`/users/view/${user.id}`}
                   >
                     View
                   </Link>
                   <Link
-                    className="btn btn-outline-primary"
+                    className="btn btn-outline-primary m-1"
                     to={`/users/edit/${user.id}`}
                   >
                     Edit
                   </Link>
                   <Link
-                    className="btn btn-danger"
+                    className="btn btn-danger m-1"
                     to=""
                     onClick={() => deleteUser(user.id)}
                   >

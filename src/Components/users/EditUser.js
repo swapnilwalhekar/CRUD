@@ -34,16 +34,17 @@ const EditUser = () => {
   };
   return (
     <div className="container">
-      <div className="w-75 mx-auto shadow p-5">
+      <div className="w-75 m-auto shadow p-5">
         <h2 className="text-center mb-4">Edit A User</h2>
+
         <form onSubmit={(e) => onSubmit(e)}>
           <div className="form-group">
             <h5>Edit Name</h5>
             <input
               type="text"
-              className="form-control form-control-lg"
-              placeholder="Enter Your Name"
+              className="form-control "
               name="name"
+              autoComplete="off"
               value={name}
               onChange={(e) => onInputChange(e)}
             />
@@ -53,8 +54,7 @@ const EditUser = () => {
           <div className="form-group">
             <input
               type="text"
-              className="form-control form-control-lg"
-              placeholder="Enter Your Username"
+              className="form-control"
               name="username"
               value={username}
               onChange={(e) => onInputChange(e)}
@@ -65,8 +65,8 @@ const EditUser = () => {
           <div className="form-group">
             <input
               type="email"
-              className="form-control form-control-lg"
-              placeholder="Enter Your E-mail Address"
+              className="form-control"
+              autoComplete="off"
               name="email"
               value={email}
               onChange={(e) => onInputChange(e)}
@@ -77,8 +77,7 @@ const EditUser = () => {
             <h5>Edit Phone Number</h5>
             <input
               type="text"
-              className="form-control form-control-lg"
-              placeholder="Enter Your Phone Number"
+              className="form-control"
               name="phone"
               value={phone}
               onChange={(e) => onInputChange(e)}
@@ -89,13 +88,12 @@ const EditUser = () => {
             <h5>Edit Website</h5>
             <input
               type="text"
-              className="form-control form-control-lg"
-              placeholder="Enter Your Website Name"
+              className="form-control"
               name="website"
               value={website}
               onChange={(e) => onInputChange(e)}
             />
-          </div>
+          </div><br/>
           <button className="btn btn-warning" type="submit">
             Update User
           </button>

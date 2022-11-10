@@ -1,14 +1,6 @@
 {
   "users": [
     {
-      "name": "Swapnil Walhekar",
-      "username": "sss",
-      "email": "sw@12.com",
-      "phone": "833829ksdcnj",
-      "website": "swakskmcoacjk",
-      "id": 5
-    },
-    {
       "name": "Swapnil Balasaheb Walhekar",
       "username": "swapnil",
       "email": "sw@12",
@@ -17,12 +9,36 @@
       "id": 6
     },
     {
-      "name": "swapnil",
-      "username": "Swapnil@12",
-      "email": "qs@g.com",
-      "phone": "1234",
-      "website": "jjkjj.com",
-      "id": 7
+      "name": "sahil",
+      "username": "sahilm",
+      "email": "sahil@12.com",
+      "phone": "2222220",
+      "website": "www.sm.com",
+      "id": 10
+    },
+    {
+      "name": "tushar",
+      "username": "kjkjkjk",
+      "email": "q@12.cm",
+      "phone": "33333333333",
+      "website": "tvs.com",
+      "id": 11
+    },
+    {
+      "name": "Saurabh",
+      "username": "saurabh shete",
+      "email": "ss@12.com",
+      "phone": "11",
+      "website": "www.ss.com",
+      "id": 12
+    },
+    {
+      "name": "Kalpesh",
+      "username": "kw",
+      "email": "kw@gmail",
+      "phone": "2222",
+      "website": "kw.com",
+      "id": 13
     }
   ]
 }
